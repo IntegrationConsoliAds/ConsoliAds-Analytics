@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ConsoliAds-Analytics_Example' do
+  pod 'ConsoliAds-Analytics', :path => '../'
+
+  target 'ConsoliAds-Analytics_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

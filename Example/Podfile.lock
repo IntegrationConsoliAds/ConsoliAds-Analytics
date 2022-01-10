@@ -1,0 +1,27 @@
+PODS:
+  - ConsoliAds-Analytics (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - ConsoliAds-Analytics (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ConsoliAds-Analytics:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ConsoliAds-Analytics: ba5e59e91b048dc831c716aeaaddccd1d5b35e3e
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 57fffdd16935fe4641c151a0040fd94cd9056384
+
+COCOAPODS: 1.11.2
