@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+ConsoliAds-Analytics in Pods, no dependencies
+Pods-ConsoliAds-Analytics_Example in Pods, depends on:
+ConsoliAds-Analytics in Pods (explicit)

@@ -36,7 +36,7 @@
 		C3C499D1E17B8A9F8350AB29D1885D1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
 		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
-		FCE5F99C28AFA71700B51231 /* ConsoliAdsAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE5F99B28AFA71700B51231 /* ConsoliAdsAnalytics.xcframework */; };
+		FCE5F9A728AFD87000B51231 /* ConsoliAdsAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE5F9A628AFD87000B51231 /* ConsoliAdsAnalytics.xcframework */; };
 		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -123,7 +123,7 @@
 		E76E45B35C008105CF0B3F3BA0F73575 /* ConsoliAds-Analytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ConsoliAds-Analytics.debug.xcconfig"; sourceTree = "<group>"; };
 		F2EFEE179D07DCBF323D59043F58F732 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F739DA3C81556FE5508F9FCBD2AF8D60 /* Pods-ConsoliAds-Analytics_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ConsoliAds-Analytics_Example"; path = Pods_ConsoliAds_Analytics_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCE5F99B28AFA71700B51231 /* ConsoliAdsAnalytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ConsoliAdsAnalytics.xcframework; sourceTree = "<group>"; };
+		FCE5F9A628AFD87000B51231 /* ConsoliAdsAnalytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ConsoliAdsAnalytics.xcframework; path = "ConsoliAds-Analytics/ConsoliAdsAnalytics.xcframework"; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,7 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3C499D1E17B8A9F8350AB29D1885D1A /* Foundation.framework in Frameworks */,
-				FCE5F99C28AFA71700B51231 /* ConsoliAdsAnalytics.xcframework in Frameworks */,
+				FCE5F9A728AFD87000B51231 /* ConsoliAdsAnalytics.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +219,7 @@
 		4A5B128C1425E3354387DED0F136F8E7 /* ConsoliAds-Analytics */ = {
 			isa = PBXGroup;
 			children = (
-				FCE5F99B28AFA71700B51231 /* ConsoliAdsAnalytics.xcframework */,
+				FCE5F9A628AFD87000B51231 /* ConsoliAdsAnalytics.xcframework */,
 				5F4CF0D62841D598C21CCC9CAF945227 /* Pod */,
 				20D0097C7CD1DCDE5D76A61D77203ECE /* Support Files */,
 			);
