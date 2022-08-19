@@ -1,0 +1,6 @@
+framework module ConsoliAdsAnalytics {
+  umbrella header "ConsoliAdsAnalytics.h"
+
+  export *
+  module * { export * }
+}
